@@ -1,0 +1,2939 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <UnitTestResult>
+      <TestDate>2012-06-30T00:16:51</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T00:17:40</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T00:18:35</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T00:19:26</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Connection refused</Message>
+      <StackTrace>  at Mono.Remoting.Channels.Unix.HostConnectionPool.CreateConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.HostConnectionPool.GetConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixConnectionPool.GetConnection (System.String path) [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T00:20:33</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T00:20:38</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Connection refused</Message>
+      <StackTrace>  at Mono.Remoting.Channels.Unix.HostConnectionPool.CreateConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.HostConnectionPool.GetConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixConnectionPool.GetConnection (System.String path) [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T00:22:02</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Connection refused</Message>
+      <StackTrace>  at Mono.Remoting.Channels.Unix.HostConnectionPool.CreateConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.HostConnectionPool.GetConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixConnectionPool.GetConnection (System.String path) [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T00:24:09</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T00:25:24</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0.21ms</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T00:26:43</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T00:49:46</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0.16ms</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T00:55:32</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T00:56:42</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T00:57:30</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T00:57:34</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T00:58:03</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T00:58:39</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0.15ms</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T01:16:05</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0.25ms</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T01:16:32</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0.23ms</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T01:23:39</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0.38ms</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T01:27:56</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0.30ms</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T01:35:07</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T01:35:30</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0.13ms</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T01:38:05</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0.14ms</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T01:40:11</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0.24ms</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T01:40:55</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0.24ms</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T01:42:41</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T01:43:06</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T01:45:31</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-30T01:46:13</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0.31ms</Message>
+    </UnitTestResult>
+  </Results>
+  <Tests>
+    <TestRecord Name="Crud">
+      <Results>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:16:51</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:17:40</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:18:35</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:20:33</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:20:38</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 50.22ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:24:09</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:25:24</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.18ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:26:43</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:28:03</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:32:08</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.14ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:32:25</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.13ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:32:34</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.13ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:32:47</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:32:56</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:34:08</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.13ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:34:32</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.13ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:35:47</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:49:46</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.15ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:55:32</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:56:42</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:57:30</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:57:34</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:58:03</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T00:58:39</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.14ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T01:16:05</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.24ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T01:16:32</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.22ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T01:23:39</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.36ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T01:27:56</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.28ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T01:35:07</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T01:35:30</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.12ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T01:38:05</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.13ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T01:40:11</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.23ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T01:40:55</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.23ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T01:42:41</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T01:43:06</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T01:45:31</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-30T01:46:13</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.31ms</Message>
+        </UnitTestResult>
+      </Results>
+      <Tests>
+        <TestRecord Name="Tests">
+          <Results>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:16:51</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:17:40</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:18:35</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:20:33</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:20:38</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 43.67ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:24:09</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:25:24</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.15ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:26:43</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:28:03</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:32:08</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.14ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:32:25</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.12ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:32:34</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.12ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:32:47</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:32:56</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:34:08</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.13ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:34:32</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.12ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:35:47</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:49:46</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.14ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:55:32</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:56:42</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:57:30</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:57:34</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:58:03</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T00:58:39</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.13ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T01:16:05</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.23ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T01:16:32</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.21ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T01:23:39</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.35ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T01:27:56</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.28ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T01:35:07</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T01:35:30</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.12ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T01:38:05</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.13ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T01:40:11</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.21ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T01:40:55</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.22ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T01:42:41</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T01:43:06</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T01:45:31</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-30T01:46:13</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.29ms</Message>
+            </UnitTestResult>
+          </Results>
+          <Tests>
+            <TestRecord Name="Redis_persistence">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:01:46</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>2</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.03ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:02:17</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>2</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.08ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:04:55</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>2</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:05:47</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:08:05</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>2</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.12ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:08:25</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Connection refused</Message>
+                  <StackTrace>  at Mono.Remoting.Channels.Unix.HostConnectionPool.CreateConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.HostConnectionPool.GetConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixConnectionPool.GetConnection (System.String path) [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:16:51</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:17:40</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:18:35</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:20:33</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:20:38</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>2</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 39.99ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:24:09</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:25:24</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>2</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.15ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:26:43</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:28:03</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:32:08</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>2</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.13ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:32:25</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>2</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:32:34</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>2</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.12ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:32:47</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:32:56</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:34:08</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>2</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.13ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:34:32</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>2</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.12ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:35:47</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:49:46</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>2</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.13ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:55:32</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:56:42</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:57:30</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:57:34</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:58:03</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T00:58:39</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>2</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.12ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T01:16:05</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>3</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.22ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T01:16:32</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>3</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.20ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T01:23:39</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>4</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.34ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T01:27:56</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>5</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.27ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T01:35:07</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T01:35:30</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>2</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T01:38:05</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>2</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.12ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T01:40:11</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>3</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.21ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T01:40:55</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>4</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.22ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T01:42:41</TestDate>
+                  <Status>Success Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>3</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T01:43:06</TestDate>
+                  <Status>Success Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>3</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T01:45:31</TestDate>
+                  <Status>Success Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>3</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-30T01:46:13</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>5</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.29ms</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="can_save">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:00:49</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:01:46</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:02:17</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.07ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Outgoing queue: Cannot write to stream
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:04:55</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Outgoing queue: Cannot write to stream
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:05:47</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>TearDown : System.Exception : boo</Message>
+                      <StackTrace>--TearDown
+  at Crud.Tests.Redis_persistence.TearDown () [0x00006] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:29 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Outgoing queue: Object reference not set to an instance of an object
+Redis send-pump is starting
+Outgoing queue: Object reference not set to an instance of an object
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:08:05</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is exiting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:09:03</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Connection refused</Message>
+                      <StackTrace>  at Mono.Remoting.Channels.Unix.HostConnectionPool.CreateConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.HostConnectionPool.GetConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixConnectionPool.GetConnection (System.String path) [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:10:06</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.TimeoutException : The operation has timed-out.</Message>
+                      <StackTrace>  at BookSleeve.RedisConnectionBase.Wait (System.Threading.Tasks.Task task) [0x00000] in &lt;filename unknown&gt;:0 
+  at BookSleeve.RedisConnectionBase.Wait[String] (System.Threading.Tasks.Task`1 task) [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x00055] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:40 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:10:34</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.TimeoutException : The operation has timed-out.</Message>
+                      <StackTrace>  at BookSleeve.RedisConnectionBase.Wait (System.Threading.Tasks.Task task) [0x00000] in &lt;filename unknown&gt;:0 
+  at BookSleeve.RedisConnectionBase.Wait[String] (System.Threading.Tasks.Task`1 task) [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x00055] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:40 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is exiting
+Invalid inbound stream: EndRead failure
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:11:43</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:16:51</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: "bobby's tune"
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression) [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x00054] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:43 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+Outgoing queue: Stream is closed
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:17:40</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: "bobby's tune"
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression) [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x00054] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:43 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is exiting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:18:35</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: "bobby's tune"
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression) [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x00054] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:42 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+Outgoing queue: Object reference not set to an instance of an object
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:19:26</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Unix transport error.</Message>
+                      <StackTrace>  at Mono.Remoting.Channels.Unix.UnixMessageIO.ReceiveMessageStatus (System.IO.Stream networkStream, System.Byte[] buffer) [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:20:33</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: "bobby's tune"
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression) [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x00054] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:42 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:20:38</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 36.78ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:24:09</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: "bobby's tune"
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression) [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x00054] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:42 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Invalid inbound stream: EndRead failure
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:25:24</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.12ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Outgoing queue: Stream is closed
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:26:43</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: "bobby's tune"
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression) [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x00054] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:44 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+Outgoing queue: Object reference not set to an instance of an object
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:28:03</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: "bobby's tune"
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression) [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x0005a] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:44 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+Outgoing queue: Stream is closed
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:32:08</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.12ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:32:25</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Outgoing queue: Object reference not set to an instance of an object
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:32:34</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:32:47</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: "bobby's tune"
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression) [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x0003d] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:43 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:32:56</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: "bobby's tune"
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression) [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x00054] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:43 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Outgoing queue: Write failure
+Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+Outgoing queue: Stream is closed
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:34:08</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Outgoing queue: Object reference not set to an instance of an object
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:34:32</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:35:47</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: "bobby's tune"
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression) [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x00054] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:38 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:36:00</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: "bobby's tune"
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression) [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x00054] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:38 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is exiting
+Invalid inbound stream: EndRead failure
+Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+Outgoing queue: Stream is closed
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:36:49</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Connection refused</Message>
+                      <StackTrace>  at Mono.Remoting.Channels.Unix.HostConnectionPool.CreateConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.HostConnectionPool.GetConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixConnectionPool.GetConnection (System.String path) [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:37:35</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: "bobby's tune"
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression) [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x00054] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:38 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is exiting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:44:52</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.12ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Outgoing queue: Cannot write to stream
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:49:16</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: "bobby's tune"
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression) [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x0003d] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:37 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Outgoing queue: Stream is closed
+Redis send-pump is starting
+Outgoing queue: Stream is closed
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:49:46</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:55:32</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.InvalidOperationException : Operation is not valid due to the current state of the object</Message>
+                      <StackTrace>  at BookSleeve.RedisConnectionBase.Open () [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x00000] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:31 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:56:42</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.InvalidOperationException : Operation is not valid due to the current state of the object</Message>
+                      <StackTrace>  at BookSleeve.RedisConnectionBase.Open () [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x00000] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:32 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:57:30</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.InvalidOperationException : Operation is not valid due to the current state of the object</Message>
+                      <StackTrace>  at BookSleeve.RedisConnectionBase.Open () [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x00000] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:32 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:57:34</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.InvalidOperationException : Operation is not valid due to the current state of the object</Message>
+                      <StackTrace>  at BookSleeve.RedisConnectionBase.Open () [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x00000] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:32 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:58:03</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.InvalidOperationException : Operation is not valid due to the current state of the object</Message>
+                      <StackTrace>  at BookSleeve.RedisConnectionBase.Open () [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x00000] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:32 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T00:58:39</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.12ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:16:05</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:16:32</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:23:39</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.15ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:27:56</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:35:07</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.InvalidOperationException : Operation is not valid due to the current state of the object</Message>
+                      <StackTrace>  at BookSleeve.RedisConnectionBase.Open () [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_save () [0x00000] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:33 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:35:30</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:38:05</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                      <ConsoleOutput>Shiny
+Shiny
+</ConsoleOutput>
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:38:26</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                      <ConsoleOutput>hiShiny
+hiShiny
+</ConsoleOutput>
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:40:11</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:40:55</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:42:41</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:43:06</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:45:31</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:46:13</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="can_update">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:16:05</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Outgoing queue: Object reference not set to an instance of an object
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:16:32</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:23:39</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.03ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Outgoing queue: Object reference not set to an instance of an object
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:27:56</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Outgoing queue: Object reference not set to an instance of an object
+Redis send-pump is starting
+Outgoing queue: Object reference not set to an instance of an object
+Redis send-pump is starting
+Outgoing queue: Object reference not set to an instance of an object
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:40:11</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:40:55</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:42:41</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:43:06</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:45:31</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:46:13</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="should_get">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:23:39</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.03ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Outgoing queue: Object reference not set to an instance of an object
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Outgoing queue: Object reference not set to an instance of an object
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:27:56</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:40:55</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:42:41</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:43:06</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:45:31</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:46:13</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="can_delete">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:27:56</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+Redis send-pump is exiting
+Redis send-pump is exiting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:42:41</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: "bobby's tune"
+  But was:  &lt;System.Threading.Tasks.Task`1[System.Byte[]]&gt;
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression) [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_delete () [0x00042] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:63 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:43:06</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: "bobby's tune"
+  But was:  &lt;System.Threading.Tasks.Task`1[System.Byte[]]&gt;
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression) [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_delete () [0x00042] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:63 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:43:44</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: "bobby's tune"
+  But was:  &lt;System.Threading.Tasks.Task`1[System.Byte[]]&gt;
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression) [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_delete () [0x00042] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:63 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:45:31</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected is &lt;System.String&gt;, actual is &lt;System.Byte[12]&gt;
+  Values differ at index [0]
+  Expected: 'b'
+  But was:  98
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression) [0x00000] in &lt;filename unknown&gt;:0 
+  at Crud.Tests.Redis_persistence.can_delete () [0x00042] in /home/will/Documents/C#/CRUD/src/Crud.Tests/Redis_persistence.cs:63 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-30T01:46:13</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError>Redis send-pump is starting
+Redis send-pump is starting
+</ConsoleError>
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+          </Tests>
+        </TestRecord>
+      </Tests>
+    </TestRecord>
+  </Tests>
+</TestRecord>
