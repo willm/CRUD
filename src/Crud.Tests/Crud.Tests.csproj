@@ -56,4 +56,10 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <ProjectReference Include="..\CRUD\CRUD.csproj">
+      <Project>{5477357B-4F60-44C4-B334-8C6B4F75FEC5}</Project>
+      <Name>CRUD</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
