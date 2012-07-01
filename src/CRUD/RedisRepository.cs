@@ -22,6 +22,10 @@ namespace CRUD
 			_connection.Hashes.Set(DB, track.Id.ToString(), track.ToByteArrayDictionary());
 		}
 		
+		public void Delete(Track track){
+			_connection.Keys.Remove(DB,track.Id.ToString());
+		}
+		
 		public string Get(string key){
 			var result = _connection.Strings.GetString(DB, key);
 			return _connection.Wait(result);
