@@ -3,7 +3,7 @@ using BookSleeve;
 
 namespace CRUD
 {
-	public class RedisRepository
+	public class RedisRepository : IRepository
 	{
 		private RedisConnection _connection;
 		
@@ -16,6 +16,10 @@ namespace CRUD
 		
 		public void Save(string key, string value){
 				_connection.Strings.Set(DB, key, value);
+		}
+		
+		public void Save(Track track){
+			_connection.Hashes.Set(DB, track.Id.ToString(), track.ToByteArrayDictionary());
 		}
 		
 		public string Get(string key){
