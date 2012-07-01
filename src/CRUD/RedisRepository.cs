@@ -12,13 +12,9 @@ namespace CRUD
 			_connection = connection;
 		}
 		
-		private static int DB = 1;
-		
-		public void Save(string key, string value){
-				_connection.Strings.Set(DB, key, value);
-		}
-		
-		public void Save(Track track){
+		private const int DB = 1;
+				
+		public void SaveOrUpdate(Track track){
 			_connection.Hashes.Set(DB, track.Id.ToString(), track.ToByteArrayDictionary());
 		}
 		
@@ -26,13 +22,10 @@ namespace CRUD
 			_connection.Keys.Remove(DB,track.Id.ToString());
 		}
 		
-		public string Get(string key){
-			var result = _connection.Strings.GetString(DB, key);
-			return _connection.Wait(result);
-		}
-		
-		public void Delete(string key){
-			_connection.Keys.Remove(DB, key);
+		public Track Get(Guid trackId){
+			var getResult =_connection.Hashes.GetAll(DB, trackId.ToString());
+			var hashResult = _connection.Wait(getResult);
+			return Track.FromHash(trackId, hashResult);
 		}
 	}
 }
