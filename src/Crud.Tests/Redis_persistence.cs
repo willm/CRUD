@@ -20,10 +20,10 @@ namespace Crud.Tests
 		[SetUp]
 		[TearDown]
 		public void ClearData(){
-			connection = new RedisConnection("localhost");
+			connection = new RedisConnection("localhost", 6379, -1, null, 2147483647, true,10000);
 			subject = new RedisRepository(connection);
-				connection.Open();
-				connection.Keys.Remove(db, key).Wait(2);
+			connection.Open();
+			connection.Server.FlushDb(db);
 		}		
 		
 		[Test]
@@ -66,6 +66,15 @@ namespace Crud.Tests
 		
 		[Test]
 		public void should_get(){
+			connection.Strings.Set(db, key, expectedString);
+			
+			var result = subject.Get(key);
+			
+			Assert.That (result, Is.EqualTo(expectedString));
+		}
+		
+		[Test]
+		public void should_get_Track(){
 			connection.Strings.Set(db, key, expectedString);
 			
 			var result = subject.Get(key);
