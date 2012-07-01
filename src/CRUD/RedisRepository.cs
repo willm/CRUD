@@ -5,6 +5,7 @@ namespace CRUD
 {
 	public class RedisRepository : IRepository
 	{
+		private const int DB = 1;
 		private RedisConnection _connection;
 		
 		public RedisRepository (RedisConnection connection)
@@ -12,8 +13,6 @@ namespace CRUD
 			_connection = connection;
 		}
 		
-		private const int DB = 1;
-				
 		public void SaveOrUpdate(Track track){
 			_connection.Hashes.Set(DB, track.Id.ToString(), track.ToByteArrayDictionary());
 		}
