@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Text;
 using System.Collections.Generic;
+using MongoDB.Bson;
+
 namespace CRUD
 {
-	public class Track
+	public class Track : ITrack
 	{
 		public Track(){
 			Id = Guid.NewGuid();
 		}
-		
 		public string Title { get; set; }
 		public string Artist { get; set; }
 		public double RunningTime { get;set;}
@@ -22,7 +23,6 @@ namespace CRUD
 			trackDictionary.Add("Running Time", System.Text.Encoding.UTF8.GetBytes(RunningTime.ToString()));
 			return trackDictionary;
 		}
-		
 		public static Track FromHash(Guid id, Dictionary<string, Byte[]> hash){
 			return new Track(){
 				Id = id, 
@@ -31,5 +31,20 @@ namespace CRUD
 				RunningTime = Double.Parse(Encoding.UTF8.GetString(hash["Running Time"]))			
 			};
 		}
+	}
+	
+	public class MongoTrack : ITrack
+	{
+		public ObjectId _id {get; set;}
+		public string Title { get; set; }
+		public string Artist { get; set; }
+		public double RunningTime { get;set;}
+	}
+	
+	public interface ITrack
+	{
+		string Title { get; set; }
+		string Artist { get; set; }
+		double RunningTime { get;set;}
 	}
 }

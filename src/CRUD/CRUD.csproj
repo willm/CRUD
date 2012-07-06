@@ -40,12 +40,19 @@
     <Reference Include="BookSleeve">
       <HintPath>..\..\packages\Booksleeve\BookSleeve.dll</HintPath>
     </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>..\..\packages\Mongo\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>..\..\packages\Mongo\MongoDB.Bson.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RedisRepository.cs" />
     <Compile Include="IRepository.cs" />
     <Compile Include="Track.cs" />
+    <Compile Include="MongoRepository.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

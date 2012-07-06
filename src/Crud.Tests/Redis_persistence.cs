@@ -11,8 +11,6 @@ namespace Crud.Tests
 	[TestFixture]
 	public class Redis_persistence
 	{
-		string expectedString = "bobby's tune";
-		string key = "title";
 		int db = 1;
 		IRepository subject;
 		RedisConnection connection;
