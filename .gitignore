@@ -7,3 +7,5 @@ obj
 src/**/logs
 *.docstates
 test-results/
+*.userprefs
+*.test-cache
