@@ -6,4 +6,4 @@ obj
 *.cache
 src/**/logs
 *.docstates
-**/test-results/*
+test-results/
